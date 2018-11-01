@@ -51,7 +51,7 @@ consistent order of precedence:
 1. Environment Variable
 1. Default Value
 
-The link:boilerplate.sh[+boilerplate.sh]file provides a script
+The link:boilerplate.sh[+boilerplate.sh] file provides a script
 template with an example of how to structure a script to process the
 inputs and provide them to the working logic with the precedence shown above.
 
