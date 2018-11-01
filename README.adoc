@@ -1,4 +1,5 @@
 = goodbash:
+
 _Suggestions and Examples of Good BASH scripting practices (IMO)_
 
 We've all heard it (or said it): "`Oh, this is _so_ much better now. It
