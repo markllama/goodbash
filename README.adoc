@@ -14,7 +14,7 @@ some flash-back inducing pipeline of output and filtering. It's
 usually followed by a series of equally crazy steps that eat each
 other's output as well. That's perfectly fine place to start.
 
-+It Doesn't Have To Stay That Way!+
+__It Doesn't Have To Stay That Way!__
 
 
 
