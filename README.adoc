@@ -28,15 +28,32 @@ I don't care what you think, your code is *not* self-documenting. Use
 comments. A lot. And say what you want the code to do, not how you're
 doing it.  That part we can read. But _why_?
 
-
-
 == Use Functions - A Lot
 
 Functions are a underused feature of Bourne shells. They're also
 another form of comment.  When you name a function (if it's named
 well) it also describes the intent of the code it contains, not merely
-the set of calls.
+the set of calls. When you call the function, the reader knows "Oh,
+that's what they meant to do." 
 
+== Process CLI Arguments and Environment Variables
+
+Environment variables that are defined before a script starts will
+just show up defined at runtime. So, technically, there's no need to
+"process environment variables".  A good script will let the caller
+provide input on the CLI, from a configuration file, from the
+environment (when the same argument is used repeatedly) or default to
+a reasonable value when one exists. The inputs should follow a
+consistent order of precedence:
+
+1. Command Line Argument
+1. Configuration File
+1. Environment Variable
+1. Default Value
+
+The link:boilerplate.sh[+boilerplate.sh]file provides a script
+template with an example of how to structure a script to process the
+inputs and provide them to the working logic with the precedence shown above.
 
 
 
