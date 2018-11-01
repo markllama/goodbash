@@ -1,9 +1,20 @@
-= goodbash:
+= goodbash
 
 _Suggestions and Examples of Good BASH scripting practices (IMO)_
 
+
 We've all heard it (or said it): "`Oh, this is _so_ much better now. It
-started out as a BASH script.`"
+started out as a BASH script.`" Usually this is for a marginally
+usable piece of Python or Ruby.
+
+My shell scripts almost always start out as something I had to type too
+many times. And since, when I'm typing one-liners, I like to be as
+clever and concise as I can, the first line written is inevitiably
+some flash-back inducing pipeline of output and filtering. It's
+usually followed by a series of equally crazy steps that eat each
+other's output as well. That's perfectly fine place to start.
+
++It Doesn't Have To Stay That Way!+
 
 
 
