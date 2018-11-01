@@ -16,6 +16,26 @@ other's output as well. That's perfectly fine place to start.
 
 [Big]#__It Doesn't Have To Stay That Way!__#
 
+BASH has good control structures and they are applied well it's
+possible to create complex scripts that are every bit as readable and
+flexable as more modern scripting languages. If you keep a few things
+in mind as your scripts grow from that one-liner the never need to
+reach Lovecraftian Horror level.
+
+== Comment Like You Mean It
+
+I don't care what you think, your code is *not* self-documenting. Use
+comments. A lot. And say what you want the code to do, not how you're
+doing it.  That part we can read. But _why_?
+
+
+
+== Use Functions - A Lot
+
+Functions are a underused feature of Bourne shells. They're also
+another form of comment.  When you name a function (if it's named
+well) it also describes the intent of the code it contains, not merely
+the set of calls.
 
 
 
